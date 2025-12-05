@@ -1,0 +1,19 @@
+[project]
+name = "detectnum"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter",
+    "keras",
+    "matplotlib",
+    "numpy",
+    "tensorflow",
+]
+
+[dependency-groups]
+dev = [
+    "black[jupyter]",
+    "ruff",
+]
